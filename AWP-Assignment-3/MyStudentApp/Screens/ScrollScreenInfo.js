@@ -25,10 +25,10 @@ const Scroll = ({ route, navigation }) => {
     ];
 
     const projects = [
-        'Project Alpha',
-        'Project Beta',
-        'Project Gamma',
-        'Project Delta',
+        'Project A',
+        'Project B',
+        'Project C',
+        'Project D',
     ];
 
     return (
@@ -36,7 +36,7 @@ const Scroll = ({ route, navigation }) => {
             <ScrollView contentContainerStyle={styles.container}>
 
                 <View style={styles.greetingCard}>
-                    <Text style={styles.greetingTitle}>Hello, {studentName} 👋</Text>
+                    <Text style={styles.greetingTitle}>Hello, {studentName} </Text>
                     <Text style={styles.greetingSubtitle}>{companyName}</Text>
                 </View>
 
@@ -97,22 +97,22 @@ const styles = StyleSheet.create({
     safe: { flex: 1, backgroundColor: '#fff' },
     container: { padding: 16, paddingBottom: 40 },
     greetingCard: {
-        backgroundColor: '#f0f4ff',
+        backgroundColor: '#ad781c',
         padding: 16,
         borderRadius: 8,
         marginBottom: 16,
     },
     greetingTitle: { fontSize: 18, fontWeight: '700', marginBottom: 4 },
-    greetingSubtitle: { fontSize: 14, color: '#555' },
+    greetingSubtitle: { fontSize: 14, color: '#302c2c' },
     section: { marginBottom: 20 },
     sectionTitle: { fontSize: 16, fontWeight: '600', marginBottom: 8 },
     sectionText: { fontSize: 14, color: '#333' },
     horizontalContent: { paddingVertical: 8 },
     skillCard: {
-        backgroundColor: '#fff6e6',
+        backgroundColor: '#ad781c',
         paddingVertical: 12,
         paddingHorizontal: 16,
-        borderRadius: 20,
+        borderRadius: 10,
         marginRight: 12,
         minWidth: 100,
         alignItems: 'center',
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     },
     skillText: { fontSize: 14, fontWeight: '600' },
     projectCard: {
-        backgroundColor: '#eef7ff',
+        backgroundColor: '#ad781c',
         width: Math.min(300, width * 0.8),
         padding: 12,
         borderRadius: 8,
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     projectDesc: { fontSize: 13, color: '#444' },
     button: {
         marginTop: 8,
-        backgroundColor: '#3b82f6',
+        backgroundColor: 'green',
         paddingVertical: 12,
         borderRadius: 8,
         alignItems: 'center',

@@ -121,14 +121,14 @@ const styles = StyleSheet.create({
   },
 
   scrollButton: {
-    backgroundColor: '#2196F3',
+    backgroundColor: '#ad781c',
     padding: 12,
     borderRadius: 8,
     marginTop: 20,
   },
 
   backButton: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: 'green',
     padding: 12,
     borderRadius: 8,
     marginTop: 10,
